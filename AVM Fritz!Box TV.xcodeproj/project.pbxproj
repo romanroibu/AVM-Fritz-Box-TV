@@ -14,6 +14,8 @@
 		30153FEA2C2B976A007C8B75 /* Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30153FE92C2B976A007C8B75 /* Discovery.swift */; };
 		30153FEC2C2B97AD007C8B75 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30153FEB2C2B97AD007C8B75 /* ThumbnailView.swift */; };
 		30153FEF2C2B97BB007C8B75 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 30153FEE2C2B97BB007C8B75 /* SDWebImageSwiftUI */; };
+		30153FF12C2B97FC007C8B75 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30153FF02C2B97FC007C8B75 /* PlayerView.swift */; };
+		30153FF42C2B9853007C8B75 /* VLCKitSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 30153FF32C2B9853007C8B75 /* VLCKitSPM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		30153FE72C2B9732007C8B75 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		30153FE92C2B976A007C8B75 /* Discovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discovery.swift; sourceTree = "<group>"; };
 		30153FEB2C2B97AD007C8B75 /* ThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		30153FF02C2B97FC007C8B75 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30153FF42C2B9853007C8B75 /* VLCKitSPM in Frameworks */,
 				30153FEF2C2B97BB007C8B75 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +64,7 @@
 				30153FE32C2B9604007C8B75 /* Application.swift */,
 				30153FE72C2B9732007C8B75 /* Channel.swift */,
 				30153FE92C2B976A007C8B75 /* Discovery.swift */,
+				30153FF02C2B97FC007C8B75 /* PlayerView.swift */,
 				30153FEB2C2B97AD007C8B75 /* ThumbnailView.swift */,
 				30153FE52C2B962D007C8B75 /* ContentView.swift */,
 				30153FC42C2B24F7007C8B75 /* Assets.xcassets */,
@@ -85,6 +90,7 @@
 			name = "AVM Fritz!Box TV";
 			packageProductDependencies = (
 				30153FEE2C2B97BB007C8B75 /* SDWebImageSwiftUI */,
+				30153FF32C2B9853007C8B75 /* VLCKitSPM */,
 			);
 			productName = "AVM Fritz!Box TV";
 			productReference = 30153FBD2C2B24F6007C8B75 /* AVM Fritz!Box TV.app */;
@@ -116,6 +122,7 @@
 			mainGroup = 30153FB42C2B24F6007C8B75;
 			packageReferences = (
 				30153FED2C2B97BB007C8B75 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				30153FF22C2B9853007C8B75 /* XCRemoteSwiftPackageReference "vlckit-spm" */,
 			);
 			productRefGroup = 30153FBE2C2B24F6007C8B75 /* Products */;
 			projectDirPath = "";
@@ -145,6 +152,7 @@
 				30153FE42C2B9604007C8B75 /* Application.swift in Sources */,
 				30153FE82C2B9732007C8B75 /* Channel.swift in Sources */,
 				30153FEC2C2B97AD007C8B75 /* ThumbnailView.swift in Sources */,
+				30153FF12C2B97FC007C8B75 /* PlayerView.swift in Sources */,
 				30153FEA2C2B976A007C8B75 /* Discovery.swift in Sources */,
 				30153FE62C2B962D007C8B75 /* ContentView.swift in Sources */,
 			);
@@ -358,6 +366,14 @@
 				minimumVersion = 3.0.4;
 			};
 		};
+		30153FF22C2B9853007C8B75 /* XCRemoteSwiftPackageReference "vlckit-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tylerjonesio/vlckit-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -365,6 +381,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 30153FED2C2B97BB007C8B75 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		30153FF32C2B9853007C8B75 /* VLCKitSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30153FF22C2B9853007C8B75 /* XCRemoteSwiftPackageReference "vlckit-spm" */;
+			productName = VLCKitSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
