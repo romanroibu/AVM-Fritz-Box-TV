@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  AVM Fritz!Box TV
-//
-//  Created by Roman Roibu on 25.06.24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -17,8 +10,4 @@ struct ContentView: View {
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
