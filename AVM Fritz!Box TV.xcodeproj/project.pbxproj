@@ -16,6 +16,7 @@
 		30153FEF2C2B97BB007C8B75 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 30153FEE2C2B97BB007C8B75 /* SDWebImageSwiftUI */; };
 		30153FF12C2B97FC007C8B75 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30153FF02C2B97FC007C8B75 /* PlayerView.swift */; };
 		30153FF42C2B9853007C8B75 /* VLCKitSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 30153FF32C2B9853007C8B75 /* VLCKitSPM */; };
+		30153FF62C2B98A9007C8B75 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30153FF52C2B98A9007C8B75 /* CollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		30153FE92C2B976A007C8B75 /* Discovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discovery.swift; sourceTree = "<group>"; };
 		30153FEB2C2B97AD007C8B75 /* ThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
 		30153FF02C2B97FC007C8B75 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		30153FF52C2B98A9007C8B75 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				30153FE32C2B9604007C8B75 /* Application.swift */,
 				30153FE72C2B9732007C8B75 /* Channel.swift */,
 				30153FE92C2B976A007C8B75 /* Discovery.swift */,
+				30153FF52C2B98A9007C8B75 /* CollectionView.swift */,
 				30153FF02C2B97FC007C8B75 /* PlayerView.swift */,
 				30153FEB2C2B97AD007C8B75 /* ThumbnailView.swift */,
 				30153FE52C2B962D007C8B75 /* ContentView.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				30153FE42C2B9604007C8B75 /* Application.swift in Sources */,
 				30153FE82C2B9732007C8B75 /* Channel.swift in Sources */,
+				30153FF62C2B98A9007C8B75 /* CollectionView.swift in Sources */,
 				30153FEC2C2B97AD007C8B75 /* ThumbnailView.swift in Sources */,
 				30153FF12C2B97FC007C8B75 /* PlayerView.swift in Sources */,
 				30153FEA2C2B976A007C8B75 /* Discovery.swift in Sources */,
